@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Fondamento:ital@0;1&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bilbo&family=Fondamento:ital@0;1&family=Gorditas:wght@400;700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bilbo&family=Fondamento:ital@0;1&family=Gorditas:wght@400;700&family=Orbitron:wght@400..900&family=Stalinist+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+<style>
+  .annie-use-your-telescope-regular {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+     .bubblegum-sans-regular {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+        .roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+.nav-bar{
+    display: flex;
+    width: 1800px;
+    margin-left: -20px;
+    height: 60px;
+    text-align: center;
+   
+    align-items: center;
+    background-color: navy;
+}
+.right-menu{
+    display: flex;
+    position: absolute;
+    right: 80px;
+    
+}
+.li{
+    margin-right: 90px;
+    color: white;
+}
+.nav-bar p{
+
+    position: relative;
+    left: 50px;
+}
+.profile-image{
+    width: 400px;
+    height: 400px;
+    
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.gorditas-regular {
+  font-family: "Gorditas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gorditas-bold {
+  font-family: "Gorditas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.fondamento-regular {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fondamento-regular-italic {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+.cards{
+    margin-top: 80px;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(183, 173, 230, 0.097);
+}
+
+.bilbo-regular {
+  font-family: "Bilbo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.stalinist-one-regular {
+  font-family: "Stalinist One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.para{
+    float: left;
+    padding-left: 10px;
+    margin-top: -70px;
+    
+}
+.picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 390px;
+    margin-top: -140px;
+    
+}
+
+
+.button-0 button{
+    
+    margin-left: 20px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+background-color: black;
+border: 1px solid black;
+}
+
+  .skills{
+    display: flex;
+    justify-content: space-between;
+  }  
+
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.hr{
+    width: 1000px;
+    margin-left: -17px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.container-1{
+    display: flex;
+}
+.container-2{
+    margin-top: 30px;
+    display: flex;
+}
+.box1{
+    width: 900px;
+    height: 300px;
+    margin-left: 70px;
+}
+.box2{
+    width:500px;
+    height: 300px;
+    
+    margin-left: 30px;
+    
+}
+.box2 img{
+    width: 300px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+.box3{
+    width: 900px;
+    height: 300px;
+    
+    margin-left: 65px;
+    margin-top: 60px;
+}
+.box3 span{
+    background-color:rgb(255, 119, 0);
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.box4{
+    width:500px;
+    height: 300px;
+    
+    margin-left: 30px;
+}
+.box4 img{
+    width: 300px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+.box img{
+    width: 300px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+.box1 span{
+    background-color:rgb(255, 119, 0);
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 5px 5px 5px;
+
+    cursor: pointer;
+}
+.boxx{
+    border: 1px solid rgba(211, 211, 211, 0.41);
+    background-color: rgba(211, 211, 211, 0.41);
+    width: 900px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.ourservices{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.hr{
+    width: 100px;
+    margin-left: 400px;
+}
+.boxx p{
+    margin-left: 250px;
+    font-size: 14px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    margin-top: 100px;
+    
+}
+.flex h4{
+    font-size: 24px;
+    margin-right: 30px;
+    
+    
+}
+.buttonss{
+   display: flex;
+    position: absolute;
+    left:500px;
+    
+    top: 1270px;
+}
+.buttonss button{
+    width: 100px;
+}
+.button-1{
+    margin-left: 150px;
+    
+}
+.button-1 button{
+    width: 100px;
+    background-color: transparent;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.icon1{
+    margin-top: -200px;
+    margin-left: 400px;
+}
+.icon2{
+    margin-top: -30px;
+    margin-left: 640px;
+}
+.icon3{
+    margin-top: -25px;
+    margin-left: 840px;
+}
+.icon4{
+    margin-top: -25px;
+    margin-left: 1040px;
+}
+.footer{
+    background-color: navy;
+    width: 1530px;
+    height: 300px;
+    color: white;
+    
+    margin-top: 200px;
+}
+.footer h1{
+    text-align: center;
+}
+.icons-part{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+</style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="nav-bar">
+        <p style="color: white;"><b>NIVEDHAN CHAGANA</b></p>
+        <ul type="none" class="right-menu">
+            <li class="li">Portfolio</li>
+            <li class="li">About</li>
+            <li class="li">Contact</li>
+        </ul>
+    </div>
+    <div class="middle-section">
+      
+        <img src="https://codelayers.net/templates/blak/images/87.png" alt="" class="profile-image">
+        <p class="sofadi-one-regular"><b>HeY ThIs iS NiVeDhAn &#129304</b></p>
+        <p style="font-size: 40px;" class="gorditas-bold gorditas-regular "><b>BUILDING DIGITAL,<br>PRODUCTS, BRANDS AND <br>EXPERIENCE.</b></p>
+        <p class="fondamento-regular fondamento-regular-italic ">Lorem <b>ipsum</b> dolor sit amet consectetur <b>adipisicing elit</b>.<br> Tempore autem a nisi <b>in</b> labore quam praesentium! Sequi sit necessitatibus<br> non omnis. Fugiat pariatur <b>excepturi</b> repellat tenetur obcaecati<br> cupiditate adipisci doloremque.</p>
+        <div class="button-0">
+            <button type="button" class="btn btn-dark">Connect With Me</button>
+
+        </div>
+        <div class="cards">
+        <p style="float: left; padding-top: 50px;padding-left: 20px; font-size: 50px;" class="bilbo-regular ">Hello</p>
+        <p class="stalinist-one-regular" style="float: left;padding-top: 140px; margin-left: -70px;">I'm <b>NIVEDHAN</b><br> </p>
+     <p class="stalinist-one-regular" style="float: left;padding-top: 180px; margin-left: -190px;"><b>A WEB DEVELOPER</b></p>
+        <img src="https://codelayers.net/templates/blak/images/111.jpg" alt="" class="picture">
+        <span class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Quo eligendi molestias praesentium porro, rerum beatae?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+        <div class="buttonss">
+            <button type="button" class="btn btn-primary">Hire Me</button>
+            <div class="button-1">
+                <button type="button" class="btn btn-dark">Portfolio</button>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+<div class="card" style="width: 1300px; margin-left: 100px;">
+    <div class="card-header" style="background-color: rgb(21, 122, 89);">
+      <P class="roboto-thin">SKILLS</P>
+    </div>
+   
+  
+<div class="card" style="height: 350px;margin-top: 50px; margin-left: 145px;margin-bottom: 50px; border-radius: 0px; width: 1000px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+   
+    <div class="card-body">
+  
+        <p>LANGUAGES AND DATABASES</p>
+        <hr class="hr">
+        
+    
+ 
+      <div class="skills">
+          <img src="https://1000logos.net/wp-content/uploads/2020/08/Python-Emblem.jpg" style="width: 150px;height: 100px;">
+        
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" width="100px" height="100px">
+     <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" width="100px" height="100px">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png" width="100px" height="100px">
+     <img src="https://www.teachpeak.in/s/store/courses/66d6ec8858f5f610016778f0/cover.jpg?v=1" width="100px" height="100px">
+     <img src="https://cdn3.brettterpstra.com/uploads/2015/02/terminal-longshadow.png" width="100px" height="100px">
+      </div> 
+      <div class="text">
+        <p style="margin-left: 50px;">   Python</p>
+        <p style="margin-left: 240px; margin-top: -37px;">   Html 5</p>
+        <p style="margin-left: 410px; margin-top: -39px;">   CSS</p>
+        <p style="margin-left: 550px;margin-top: -40px;">   postgre SQL</p>
+        <p style="margin-left: 720px;margin-top: -40px;"> My SQL</p>
+        <p style="margin-left: 870px;margin-top: -40px; width: max-content;"> Shell Script</p>
+      </div>     
+ </div>
+   </div>
+</div>
+   <div class="next-part">
+    <p class="bubblegum-sans-regular" style="text-align: center; margin-top: 30px;">PRODUCTION LEVEL SKILLS</p>
+   </div>
+   <div class="images">
+    <img src="https://thumbs.dreamstime.com/b/javascript-logo-editorial-illustrative-white-background-javascript-logo-editorial-illustrative-white-background-eps-download-208329460.jpg" alt="" style="width: 80px; height: 80px;  border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; ">
+    <img src="https://cdn-icons-png.freepik.com/512/5968/5968566.png" alt="" style="width: 80px; height: 80px;  border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s" alt="" style="width: 80px; height: 80px;  border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;" >
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png" alt="" style="width: 80px; height: 80px;  border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRgx_aoaAijFTWh85C7l-TZSxQeReLHRFSvg&s" alt="" style="width: 80px; height: 80px;  border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe1Y_oQw2_xuouFWwUrhOs_HIgKr_Cazd10g&s" alt="" style="width: 80px; height: 80px;  border-radius: 50%;box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;">
+   </div>
+   <br>
+   <br>
+   <div class="container-1">
+    <div class="box1">
+        <h1>Projects</h1>
+        <P><h5 class="annie-use-your-telescope-regular"><b>Study, Implementation and Analysis of LPN Algorithm</b></h5></P>
+        <i class="fa fa-github"><p style="color: red; margin-left: 20px;margin-top: -16px;">Github</p></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rerum recusandae ex <br>voluptatem culpa!</p>
+        <span>C++</span>
+    </div>
+    <div class="box2">
+        <img src="https://img.freepik.com/premium-vector/boy-with-laptop-social-media-icons-cartoon-style_1057-190601.jpg" alt="">
+    </div>
+</div>
+<div class="container-2">
+
+    <div class="box3">
+        <h4>40 Mini JavaScripts Projects</h4>
+        
+        <i class="fa fa-github"><p style="color: red; margin-left: 20px;margin-top: -16px;">Github</p></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde rerum recusandae ex <br>voluptatem culpa!</p>
+        <span>JavaScript</span>
+        <span>HTML/CSS</span>
+    </div>
+    <div class="box4">
+        <img src="https://static.vecteezy.com/system/resources/previews/001/482/630/non_2x/laptop-and-smartphone-or-learning-tools-with-social-media-emoji-icon-cartoon-style-isolated-on-white-background-free-vector.jpg" alt="">
+    </div>
+</div>
+<div class="boxx">
+    <div class="ourservices"><h1>Our Services.</h1></div>
+    <hr class="hr">
+    <p style="color: black;">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit. .</p>
+    <div class="flex">
+       
+
+        <div><h4>Creative Designers</h4><span>Lorem ipsum dolor sit<br> amet  elit. Illum, qui?</span></div>
+        <div><h4>IOS Developers</h4><span>Lorem ipsum dolor sit<br> amet  elit. Illum, qui?</span></div>
+        <div><h4>Maintainence</h4><span>Lorem ipsum dolor sit <br> amet elit. Illum, qui?</span></div>
+        <div><h4>Time Management</h4><span>Lorem ipsum dolor sit<br> amet  elit. Illum, qui?</span></div>
+       
+    </div>
+</div>
+<div class="icon1">
+    <i class="fa fa-desktop" style="font-size:24px" ></i>
+</div>
+<div class="icon2">
+    <i class="fa fa-apple" style="font-size:24px"></i>
+</div>
+<div class="icon3">
+    <i class="fa fa-clock-o" style="font-size:24px"></i>
+</div>
+<div class="icon4">
+    <i class="fa fa-address-card-o" style="font-size:24px"></i>
+</div>
+<div class="footer">
+    
+    <h1>AROUND THE WEB</h1>
+    <div class="icons-part">
+        <i class="fa fa-facebook-f" style="font-size:36px;border: 3px solid white; border-radius: 50%;padding: 30px 30px 30px 30px;"></i>
+        <i class="fa fa-twitter" style="font-size: 36px; border: 3px solid white; border-radius: 50%; padding: 30px 30px 30px 30px;"></i>
+        <i class="fa fa-linkedin" style="font-size:36px;border: 3px solid white; border-radius: 50%;padding: 30px 30px 30px 30px;"></i>
+        <i class="fa fa-wifi" style="font-size:36px;border: 3px solid white; border-radius: 50%;padding: 30px 30px 30px 30px;"></i>
+    </div>
+</div>
+</body>
+</html>
